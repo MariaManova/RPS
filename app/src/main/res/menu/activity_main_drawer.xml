@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="@string/User" />
+        <item
+            android:id="@+id/nav_messange"
+            android:icon="@android:drawable/sym_action_email"
+            android:title="@string/Messages" />
+        <item
+            android:id="@+id/nav_poisk"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="@string/Поиск" />
+        <item
+            android:id="@+id/nav_like"
+            android:icon="@android:drawable/star_big_off"
+            android:title="@string/Like" />
+
+    </group>
+
+    <item android:title="Ресурсы">
+        <menu>
+            <item
+                android:id="@+id/coins"
+                android:icon="@android:drawable/radiobutton_off_background"
+                android:title="@string/coins" />
+        </menu>
+    </item>
+
+</menu>
